@@ -1,0 +1,5 @@
+C:\Users\student.UNIBIT\Desktop\Remotе\Remotе\Remotе\bin\Debug\Remotе.dll
+C:\Users\student.UNIBIT\Desktop\Remotе\Remotе\Remotе\bin\Debug\Remotе.pdb
+C:\Users\student.UNIBIT\Desktop\Remotе\Remotе\Remotе\obj\Debug\Remotе.csprojResolveAssemblyReference.cache
+C:\Users\student.UNIBIT\Desktop\Remotе\Remotе\Remotе\obj\Debug\Remotе.dll
+C:\Users\student.UNIBIT\Desktop\Remotе\Remotе\Remotе\obj\Debug\Remotе.pdb
