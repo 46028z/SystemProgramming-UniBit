@@ -6,20 +6,24 @@ using System.Threading.Tasks;
 
 namespace Remotе
 {
+    [Serializable]
+    public struct kAction
+    {
+        public string s_Command;
+        // the text to be sent by master 
+        public string s_Computer;
+        // Computer name of the sender (=slave) 
+    };
+    [Serializable]
+    public struct kResponse
+    {
+        public string s_Result;
+        // the response text sent by slave 
+    };
+
     public class cTransfer : MarshalByRefObject
     {
-        [Serializable] public struct kAction
-        { 
-          public string s_Command; 
-            // the text to be sent by master 
-          public string s_Computer; 
-            // Computer name of the sender (=slave) 
-        };
-        [Serializable] public struct kResponse
-        {
-            public string s_Result; 
-            // the response text sent by slave 
-        };
+        
         public cTransfer ()
         {
         }
